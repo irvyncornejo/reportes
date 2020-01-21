@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title id="titulo">IFP | </title>
+    <section>
+        <!-- nav -->
+    </section>
+
+    <section class="container">
+        <!-- Reporte -->
+        <div class="row">
+            <div class="col s4">
+                <div class="input-field">
+                    <select id="cantidad" onchange="cantidad()">
+                      <option value="0">Alumnos</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                    </select>
+                    <label>Cantidad</label>
+                </div>    
+            </div>
+            <div id="data">
+                <div id="formulario" class="col s8">
+
+                </div>
+
+            </div>
+            <div id="">
+                <button onclick="getData()">Pedir datos</button>
+            </div>
+            <div id="">
+                <button onclick="limpiarCampos()">Limpiar datos</button>
+            </div>
+            <div id="tarjetas">
+
+            </div>
+        </div>
+
+    </section>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    
+</body>
+</html>
